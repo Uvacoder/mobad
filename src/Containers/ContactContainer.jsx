@@ -7,6 +7,7 @@ class ContactContainer extends React.Component {
     render() {
         return (
             <div classname="contact_container">
+                <h1>Contact Container</h1>
                 <Contact />
             </div>
         );

@@ -9,11 +9,11 @@ class HomeContainer extends React.Component {
         return (
             <div>
 
-                <div><h3>Mobâd</h3></div>
 
-                <div className="auth">
-                        <Home />
-                    </div>
+                <div className="home_container">
+                    <h1>Home Container</h1>
+                    <Home />
+                </div>
 
             </div>
         );

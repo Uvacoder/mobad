@@ -3,10 +3,10 @@ import React from 'react';
 const Music = () => {
 
     return (
-
         <div className="music">
-            <p> Music </p>
+            <h2> Music </h2>
         </div>
     )
 }
+
 export default Music;
