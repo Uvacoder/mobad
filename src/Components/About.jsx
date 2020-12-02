@@ -7,6 +7,7 @@ const About = () => {
 
         <div className="about">
             <p> About </p>
+
         </div>
     )
 }
