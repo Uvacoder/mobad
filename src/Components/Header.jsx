@@ -1,12 +1,10 @@
 import React from 'react';
+import { Header, Image } from 'semantic-ui-react'
 
-const Header = () => {
+const HeaderImg = () => (
+    <Header>
+        <Image className= "header" src="https://i.imgur.com/cAo2hzd.jpg" alt="mobad" id="header" />
+    </Header>
+)
 
-    return (
-        <div className="header">
-            <h1> Header </h1>
-        </div>
-    )
-}
-
-export default Header;
+export default HeaderImg;

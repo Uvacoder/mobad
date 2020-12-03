@@ -20,7 +20,7 @@ class App extends Component {
             <div className="App">
                 <Navbar />
                 <Header />
-                <Grid />
+                {/* <Grid /> */}
                 <Switch>
                     <Route path="/" component={HomeContainer} exact />
                     <Route path="/about" component={AboutContainer} />
