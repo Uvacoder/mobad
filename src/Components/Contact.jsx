@@ -1,13 +1,14 @@
 import React from 'react';
+import Social from "./Social"
 
 const Contact = () => {
 
     return (
         <div className="box">
             <h2> contact </h2>
-            <h4>soundcloud link</h4>
-            <h4>instagram link</h4>
+            <Social />
             <h4>email form</h4>
+
         </div>
     )
 }
