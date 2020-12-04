@@ -17,14 +17,15 @@ code {
 }
 
 footer {
-  position: static;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   align-content: center;
   background-color: black;
-  bottom: 0;
-  padding-top: 5px;
+  padding-top: 7px;
   padding-bottom: 5px;
-
   color: aliceblue;
+  /* text-shadow: 1px 1px rgb(16 172 224); */
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -33,7 +34,7 @@ footer {
   opacity: ;
   min-height: 10px;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   padding-inline-start: 100px;
   padding-inline-end: 100px;
   display: flex;
@@ -47,10 +48,10 @@ footer {
 }
 
 a {
-    color: rgb(185 19 210);
-    font-size: 18px;
-    text-decoration: none;
-    text-shadow: 1px 1px white;
+  color: rgb(185 19 210);
+  font-size: 18px;
+  text-decoration: none;
+  text-shadow: 1px 1px white;
 }
 
 a:hover {
@@ -61,19 +62,29 @@ a:active {
   color: rrgb(91 218 248);
 }
 
+a.social {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  display: inline-flex;
+}
+
 .box {
   text-align: center;
   color: white;
-  padding: 30px;
-  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: auto;
   height: auto;
   display: inline-grid;
   margin: 30px;
   background-color: black;
   opacity: 1;
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Courier";
-  text-shadow: 1px 1px 0 #057fd0;
+  text-shadow: 1px 2px 0 #057fd0;
 }
 
 .box_logo {
@@ -82,16 +93,15 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
 }
 
 .header {
-    opacity: 1;
-    width: 100%;
+  opacity: 1;
+  width: 100%;
 }
 
 .soundcloud_player {
-    background-color: black;
+  background-color: black;
 }
 
 /* .App-header {

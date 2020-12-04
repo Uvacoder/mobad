@@ -5,10 +5,8 @@ const Contact = () => {
 
     return (
         <div className="box">
-            <h2> contact </h2>
+            <h4> contact </h4>
             <Social />
-            <h4>email form</h4>
-
         </div>
     )
 }
