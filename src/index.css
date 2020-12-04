@@ -33,7 +33,7 @@ footer {
   opacity: ;
   min-height: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-inline-start: 100px;
   padding-inline-end: 100px;
   display: flex;
@@ -43,16 +43,22 @@ footer {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   font-weight: 500;
-  text-shadow: 1px 1px lightgrey;
   color: white;
 }
 
-.navbar:hover {
-  color: white;
+a {
+    color: rgb(185 19 210);
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 1px 1px white;
 }
 
-.navbar:visited {
-  color: white;
+a:hover {
+  color: rgb(16 172 224);
+}
+
+a:active {
+  color: rrgb(91 218 248);
 }
 
 .box {
