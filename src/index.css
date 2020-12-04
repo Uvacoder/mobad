@@ -84,6 +84,10 @@ footer {
     width: 100%;
 }
 
+.soundcloud_player {
+    background-color: black;
+}
+
 /* .App-header {
     background-color: #282c34;
     min-height: 100vh;
