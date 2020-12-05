@@ -19,6 +19,7 @@ code {
 footer {
   position: absolute;
   bottom: 0px;
+  cursor: default;
   width: 100%;
   align-content: center;
   background-color: black;
@@ -72,6 +73,8 @@ a.social {
 .box {
   text-align: center;
   color: white;
+  cursor: default;
+  border-radius: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 100px;
@@ -81,7 +84,7 @@ a.social {
   display: inline-grid;
   margin: 30px;
   background-color: black;
-  opacity: 1;
+  opacity: 0.9;
   font-size: 22px;
   font-family: "Courier";
   text-shadow: 1px 2px 0 #057fd0;

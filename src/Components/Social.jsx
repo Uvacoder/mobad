@@ -8,10 +8,12 @@ function Social() {
 
         <div className="social-container">
             <a href="https://www.instagram.com/djmobad"
+                target="blank"
                 className="social">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
             <a href="https://soundcloud.com/djmobad"
+                target="blank"
                 className="social">
                 <FontAwesomeIcon icon={faSoundcloud} size="2x" />
             </a>

@@ -1,11 +1,13 @@
 import React from 'react';
 import Social from "./Social"
+import Grid from 'animated-grid-lines';
 
 const Contact = () => {
 
     return (
         <div className="box">
-            <h4> contact </h4>
+            <h4> connect </h4>
+            <Grid />
             <Social />
         </div>
     )
