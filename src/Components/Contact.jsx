@@ -1,13 +1,13 @@
 import React from 'react';
 import Social from "./Social"
-import Grid from 'animated-grid-lines';
+import { Image } from 'semantic-ui-react'
+
 
 const Contact = () => {
 
     return (
         <div className="box">
-            <h4> connect </h4>
-            <Grid />
+            <Image className="box_logo" src="https://i.imgur.com/KHDScWr.jpg" alt="mobad" id="logo" />
             <Social />
         </div>
     )

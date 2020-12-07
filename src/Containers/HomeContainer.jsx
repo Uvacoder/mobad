@@ -5,7 +5,7 @@ class HomeContainer extends React.Component {
 
     render() {
         return (
-            <div className="home_container">
+            <div className="container">
                 <Home />
             </div>
 

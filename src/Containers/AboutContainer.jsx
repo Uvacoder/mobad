@@ -6,7 +6,7 @@ class AboutContainer extends React.Component {
 
     render() {
         return (
-            <div classname="about_container">
+            <div classname="container">
                 <About />
             </div>
         );

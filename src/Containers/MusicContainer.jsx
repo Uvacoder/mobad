@@ -5,7 +5,7 @@ class MusicContainer extends React.Component {
 
     render() {
         return (
-            <div classname="music_container">
+            <div classname="container">
                 <Music />
             </div>
         );
