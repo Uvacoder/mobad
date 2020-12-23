@@ -78,12 +78,14 @@ a.social {
   padding-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
-  width: auto;
-  height: auto;
   display: inline-grid;
   margin: 0px;
-  /* background-color: black; */
-  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  background-color: black;
+  /* background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.6)
+  ); */
   opacity: 1;
   font-size: 22px;
   font-family: "Courier";
@@ -96,6 +98,16 @@ a.social {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.social_container {
+  width: 300px;
+  height: 200px;
+}
+
+.inner_social {
+    width: 50%;
+    height: 50%;
 }
 
 .header {
